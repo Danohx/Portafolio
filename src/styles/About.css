@@ -1,0 +1,164 @@
+/* Archivo: styles/About.css */
+
+.about-container {
+    padding: 6rem 6.2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .section-header {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .section-header h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #0C0A20;
+    margin-bottom: 0.5rem;
+  }
+  
+  .highlight {
+    color: #007bff;
+  }
+  
+  .underline {
+    height: 4px;
+    width: 70px;
+    background: linear-gradient(90deg, #0C0A20, #007bff);
+    margin: 0 auto;
+    border-radius: 2px;
+  }
+  
+  .about-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+  }
+  
+  .about-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .about-intro {
+    font-size: 1.25rem;
+    line-height: 1.6;
+    color: #0C0A20;
+  }
+  
+  .about-description {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #333;
+  }
+  
+  .about-features {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 1rem;
+  }
+  
+  .feature-item {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+  }
+  
+  .feature-icon {
+    font-size: 1.25rem;
+    color: #007bff;
+    margin-top: 0.25rem;
+  }
+  
+  .feature-item h3 {
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    color: #0C0A20;
+  }
+  
+  .feature-item p {
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .about-skills {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .skills-block h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #0C0A20;
+    margin-bottom: 1rem;
+  }
+  
+  .skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+  }
+  
+  .skill-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #f0f4f8;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    font-size: 0.9rem;
+    color: #0C0A20;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(12, 10, 32, 0.1);
+  }
+  
+  .skill-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tech-icon, .interest-icon {
+    font-size: 1.1rem;
+  }
+  
+  .js-icon {
+    color: #f7df1e;
+  }
+  
+  .react-icon {
+    color: #61dafb;
+  }
+  
+  .node-icon {
+    color: #68a063;
+  }
+  
+  .python-icon {
+    color: #3776ab;
+  }
+  
+  .photo-icon {
+    color: #e84c3d;
+  }
+  
+  .game-icon {
+    color: #9146ff;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .about-content {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+    
+    .section-header h2 {
+      font-size: 2rem;
+    }
+  }

@@ -1,0 +1,138 @@
+/* Estructura principal - Fondo diferenciado */
+.project-section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 5% 60px; /* Espacio para navbar y footer */
+    background-color: #f8f9fa; /* Fondo gris claro */
+  }
+  
+  /* Contenedor de proyectos - Centrado y con ancho máximo */
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2.5rem;
+    margin: 2rem auto; /* Centrado horizontal */
+    max-width: 1200px; /* Ancho máximo */
+    width: 100%;
+    padding: 0 20px;
+  }
+  
+  /* Cards de proyectos - Estilo mejorado */
+  .projects-card {
+    background: white;
+    border-radius: 12px;
+    padding: 1.8rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+    border: 1px solid #e9ecef; /* Borde sutil */
+  }
+  
+  .projects-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+    border-color: #646cff; /* Borde azul al hover */
+  }
+  
+  /* Header de sección - Mejorado */
+  .section-header {
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+  
+  .section-header h2 {
+    font-size: 2.5rem;
+    margin-bottom: 0.8rem;
+    color: #2d3748; /* Color más oscuro */
+  }
+  
+  .highlight {
+    color: #646cff;
+    font-weight: 600;
+  }
+  
+  .underline {
+    width: 100px;
+    height: 5px;
+    background: #646cff;
+    margin: 0 auto;
+    border-radius: 3px;
+    background: linear-gradient(90deg, #646cff, #a855f7); /* Degradado */
+  }
+  
+  /* Nota del footer - Estilo mejorado */
+  .projects-note {
+    text-align: center;
+    margin-top: 4rem;
+    padding: 1.5rem;
+    color: #4a5568;
+    font-size: 1.1rem;
+  }
+  
+  .projects-note a {
+    color: #646cff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s;
+  }
+  
+  .projects-note a:hover {
+    color: #4f46e5;
+    text-decoration: underline;
+  }
+  
+  /* Estilos para elementos internos de las cards */
+  .project-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.2rem;
+  }
+  
+  .project-icon {
+    font-size: 1.8rem;
+    color: #646cff;
+  }
+  
+  .projects-card h3 {
+    font-size: 1.4rem;
+    color: #2d3748;
+    margin: 0;
+  }
+  
+  .projects-card p {
+    color: #4a5568;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+  }
+  
+  .project-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.7rem;
+    margin-bottom: 1.8rem;
+  }
+  
+  .tag {
+    background: #e0e7ff;
+    color: #4f46e5;
+    padding: 0.4rem 1rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 500;
+  }
+  
+  .project-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #646cff;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+  
+  .project-link:hover {
+    color: #4f46e5;
+    gap: 0.7rem;
+  }

@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "API Web IoT",
+    "description": "Creación de API para control de IoT con conexión a base de datos NoSQL (posiblemente MongoDB o similar).",
+    "tags": ["API", "IoT", "NoSQL", "Backend"],
+    "icon": "code",
+    "link": "https://github.com/Danohx/ApiWeb"
+  },
+  {
+    "id": 2,
+    "title": "Sentinel - Cerradura IoT",
+    "description": "Lógica de Arduino para control de cerradura inteligente con Lector RFID, Sensor Hall, Pantalla LCD y Teclado Matricial.",
+    "tags": ["Arduino", "IoT", "Electrónica", "C++"],
+    "icon": "microchip",
+    "link": "https://github.com/Danohx/Arduino"
+  },
+  {
+    "id": 3,
+    "title": "Calculadora TypeScript",
+    "description": "Calculadora funcional desarrollada completamente en TypeScript.",
+    "tags": ["TypeScript", "Frontend", "Lógica"],
+    "icon": "calculator",
+    "link": "https://danohx.github.io/CalculadoraTS/"
+  },
+  {
+    "id": 4,
+    "title": "Clon BBVA HTML",
+    "description": "Réplica de la interfaz del banco BBVA creada con HTML y probablemente CSS/JS.",
+    "tags": ["HTML", "CSS", "Frontend", "Clone"],
+    "icon": "bank",
+    "link": "https://danohx.github.io/BBVA_HTML/"
+  },
+  {
+    "id": 5,
+    "title": "PODAI Responsive",
+    "description": "Clon de pantalla de calificaciones PODAI de la UTHH con diseño responsive.",
+    "tags": ["Responsive Design", "Frontend", "Education"],
+    "icon": "graduation-cap",
+    "link": "https://danohx.github.io/PODAI-Responsive/"
+  }
+]
