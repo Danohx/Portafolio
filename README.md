@@ -20,7 +20,7 @@
 ## 📬 Contacto
 ¿Quieres colaborar o contactarme?
 - GitHub: [@Danohx](https://github.com/Danohx)
-- (Agrega aquí tus otros contactos si lo deseas)
+- Gmail: [Daniel Hernandez](dt094250@gmail.com)
 
 ---
 
